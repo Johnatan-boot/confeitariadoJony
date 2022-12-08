@@ -1,0 +1,94 @@
+.bannerLogin{
+  position: relative;
+  right: 87px;
+  bottom:55px;
+  height: 220px;
+
+
+
+
+}
+
+.alert{
+  background-color: rgb(16, 211, 81);
+  text-align: center;
+  color: white;
+  font-family: segoe script;
+  position: relative;
+  bottom: 40px;
+}
+
+mat-card{
+  position: relative;
+  bottom: 90px;
+  left:400px;
+  background-color: #B39DDB;
+  border-radius: 30px;
+  border: 2px solid grey;
+}
+
+.mat-button{
+  background-color: #93d1f4;
+  margin: 2px;
+  border-radius: 10px;
+  width: 100px;
+  font-family: segoe script;
+  font-size: 11px;
+  font-weight: bold;
+
+}
+
+a:hover{
+  color: black;
+}
+
+.btnVoltar{
+  background-color: #4E342E;
+  width: 100px;
+ font-family: segoe script;
+ color: white;
+ text-decoration: none;
+ border-radius: 10px;
+ height: 37px;
+ font-size: 11px;
+ padding-top: 6px;
+ }
+
+ @media(max-width:320px)and (max-width:720px){
+  .navbar{
+    width: 320px;
+    position: relative;
+    left: 100px;
+    z-index: 1;
+  }
+  .bannerLogin{
+   width: 280px;
+   height: 180px;
+   position: relative;
+   right: 120px;
+   bottom: 470px;
+
+
+  }
+
+  .alert{
+    position: relative;
+    bottom: 350px;
+    z-index: 1;
+    width: 270px;
+    right: 85px;
+    font-size: 9px;
+  }
+  mat-card{
+    width: 250px;
+    position: relative;
+    bottom: 540px;
+    left:-90px;
+    background-color: #B39DDB;
+    border-radius: 30px;
+    border: 2px solid grey;
+  }
+
+ }
+
+

@@ -1,0 +1,144 @@
+
+
+#imagens_Carrosel{
+  width: 900px;
+  border-radius: 80px;
+  border: 2px solid grey;
+}
+
+.bannerbolos{
+  position: relative;
+  bottom: 58px;
+  right: 120px;
+  z-index: -1;
+}
+
+
+
+
+.container {
+  position: relative;
+  bottom: 90px;
+  left: 300px;
+  height: 200px;
+
+
+}
+.container img{
+  position: relative;
+  top: 10px;
+  right: 100px;
+  height: 290px;
+  width: 550px;
+  border-radius: 80px;
+  border: 2px solid grey;
+}
+
+
+
+.containerPro{
+  position: relative;
+  left: -40px;
+  top:320px;
+}
+.containerProd{
+  position: relative;
+  top:30px;
+  right: 20px;
+}
+.containerNov{
+  position: relative;
+  left: -50px;
+  bottom:260px;
+  width: 500px;
+}
+.containerNov img{
+  position: relative;
+  margin-top: 0px;
+
+
+}
+.container_P{
+  background-color: #5D4037;
+  color:white;
+  font-family: segoe script;
+  font-size:16px;
+  width: 448px;
+  position: relative;
+  left: -27px;
+  top:40px;
+  height: 288px;
+  border-radius: 20px;
+  border: 2px solid grey;
+}
+h2{
+  color:white;
+  font-family: segoe script;
+}
+
+
+@media(min-width:320px) and (max-width:720px){
+  .container {
+    position: relative;
+    bottom: 90px;
+    right: 100px;
+    height: 300px;
+
+  }
+  .container img{
+    position: relative;
+    top: 10px;
+    right: 100px;
+    height: 300px;
+    width: 550px;
+
+  }
+
+ .containerProd{
+  position: relative;
+  right: 320px;
+  width: 250px;
+  height: 200px;
+
+ }
+
+  .containerPro{
+    margin-top: -190px;
+    position: relative;
+    left: -320px;
+    bottom: 500px;
+    width: 250px;
+    height: 200px;
+  }
+  .containerNov{
+    position: relative;
+    top: 430px;
+    right: 30px;
+    left: -340px;
+    width: 260px;
+  }
+  .containerNov img{
+    position: relative;
+    margin-top: 0px;
+
+
+  }
+  .container_P{
+    background-color: #5D4037;
+    width: 250px;
+    position: relative;
+    left: -340px;
+    top: 430px;
+    height: 288px;
+    border-radius: 18px;
+    border: 2px solid grey;
+  }
+
+#imagens_Carrosel{
+    border-radius: 80px;
+    border: 2px solid grey;
+    height: 200px;
+  }
+}
+
+

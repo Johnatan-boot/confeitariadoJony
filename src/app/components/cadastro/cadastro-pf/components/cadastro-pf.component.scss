@@ -1,0 +1,153 @@
+.bannercadastro{
+  position: relative;
+  bottom: 55px;
+  right: 55px;
+  z-index: -1;
+}
+
+
+
+.container-fluid{
+    position: relative;
+    left: 260px;
+    bottom: 160px;
+  }
+
+  .card_form_cadpf{
+    position: relative;
+    bottom: 30px;
+    background-color: #B39DDB;
+    border-radius: 30px;
+    border: 2px solid grey;
+    height: 450px;
+  }
+
+
+
+
+
+
+  .mat-button{
+    background-color: #93d1f4;
+    margin: 2px;
+    border-radius: 10px;
+    width: 100px;
+    font-family: segoe script;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4E342E;
+    height:40px;
+    position: relative;
+    top: 10px;
+    right: 160px;
+
+  }
+
+  .btnVoltar{
+    position: relative;
+    top: 10px;
+    right: 160px;
+  padding-top: 9px;
+   background-color: #4E342E;
+   width: 100px;
+  font-family: segoe script;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  height: 23px;
+  font-size: 14px;
+  height:40px;
+  }
+
+
+  @media(min-width:320px) and (max-width:320px){
+    .bannercadastro{
+      position: relative;
+      bottom: 350px;
+      right: 85px;
+      z-index: -1;
+      width: 280px;
+      height: 250px;
+    }
+
+   .container{
+      width: 280px;
+      position: relative;
+      right: 85px;
+      font-size: 9px;
+
+
+    }
+
+    .card_form_cadpf{
+      position: relative;
+      bottom: 300px;
+      width: 280px;
+      height: 280px;
+      left: 0px;
+      background-color: #B39DDB;
+      border-radius: 30px;
+      border: 2px solid grey;
+    }
+
+    mat-form-field{
+      font-size: 11px;
+      width: 200px;
+      position: relative;
+      right: 30px;
+    }
+
+    input{
+      width: 280px;
+    }
+
+    .container-fluid{
+      position: relative;
+      left: 0px;
+    }
+
+    .mat-button{
+      background-color: #93d1f4;
+      margin: 2px;
+      border-radius: 10px;
+      width: 100px;
+      font-family: segoe script;
+      font-size: 14px;
+      font-weight: bold;
+      color: #4E342E;
+      height:40px;
+      position: relative;
+      top: 10px;
+      right: 10px;
+
+    }
+
+    .btnVoltar{
+      position: relative;
+      top: 10px;
+      left: 30px;
+    padding-top: 9px;
+     background-color: #4E342E;
+     width: 100px;
+    font-family: segoe script;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    height: 23px;
+    font-size: 14px;
+    height:40px;
+    }
+
+
+  }
+
+
+  @media(width:320px) and (width:720px){
+    .bannercadastro{
+      height: 320px;
+      position: relative;
+      bottom: 123px;
+    }
+
+
+  }

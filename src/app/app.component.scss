@@ -1,0 +1,31 @@
+app-footer{
+  position: relative;
+  bottom: 405px;
+  z-index: 1;
+  left: 185px;
+  width: 132%;
+  height: 100px;
+  text-align: center;
+
+
+}
+
+
+@media(min-width:320px) and (max-width:768px){
+  app-footer{
+    position: relative;
+    bottom: 1365px;
+    z-index: 1;
+    right: 37px;
+    width: 132%;
+    height: 100px;
+    text-align: center;
+
+
+  }
+
+
+
+}
+
+

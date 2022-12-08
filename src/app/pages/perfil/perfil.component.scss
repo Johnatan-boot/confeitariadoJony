@@ -1,0 +1,66 @@
+.title{
+  position: relative;
+  bottom: 45px;
+  text-align: center;
+  color: white;
+  font-family: segoe script;
+  font-weight: bold;
+}
+.container_carrossel img{
+  height: 250px;
+  width: 800px;
+  position: relative;
+
+
+}
+.container_carrossel {
+  height: 200px;
+  position: relative;
+  position: relative;
+  bottom: 45px;
+  left: 120px;
+
+
+}
+
+.card_w,.card_f,.card_y,.card_i{
+  height: 300px;
+  background-color:  #472c2c;
+  color: white;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+h3{
+font-family: segoe script;
+text-align: center;
+
+}
+
+.logo_w{
+  position: relative;
+  left: 50px;
+}
+.logo_y{
+  position: relative;
+  left: 50px;
+  bottom: 70px;
+}
+.card_f,.card_y,.card_i{
+  position: relative;
+  left: 300px;
+  bottom: 300px;
+}
+
+.card_y,.card_i{
+  position: relative;
+  left: 600px;
+  bottom: 600px;
+
+}
+
+.card_i{
+  position: relative;
+  left: 900px;
+  bottom: 900px;
+}

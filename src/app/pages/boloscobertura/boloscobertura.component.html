@@ -1,0 +1,61 @@
+
+<div class="card-top container-fluid">
+  <div class="container d-flex">
+      <div class="item">
+          <a (click)="filter('')">
+              <img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" alt="">
+              <h6>All products</h6>
+          </a>
+      </div>
+      <div class="item">
+          <a   routerLinkActive="router-link-active"  routerLinkActive="router-link-active"  (click)="filter('bolostradcionais')">
+              <img src="{{bolostradcionais}}" alt="">
+              <h6>Bolos Tradcionais</h6>
+          </a>
+      </div>
+      <div class="item">
+          <a (click)="filter('boloscobertura')">
+              <img src= "{{bolosCobertura}}" alt="">
+              <h6>Bolos Com Cobertura</h6>
+          </a>
+      </div>
+      <div class="item">
+          <a (click)="filter('bolosfestas')">
+              <img style="width: 62px; margin-top: 5px;" src="{{bolosFesta}}" alt="">
+              <h6>Bolos Para Festas</h6>
+          </a>
+      </div>
+  </div>
+</div>
+
+<div class="container" >
+  <div class="row">
+      <ng-container *ngFor="let item of filterCategory | filter:searchKey:'title'">
+
+        <div  class="card col-sm col-md-3 col-xl-3">
+              <img src="{{item.image}}" alt="">
+              <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.title}}</h5>
+              <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.description}}</p>
+              <p><strong>Preço:</strong> R${{item.price}},00</p>
+              <div class="row">
+                <button class="btn btn-primary" (click)=addtocart(item)>Add to cart</button>
+              </div>
+              <div class="row">
+                <button class="btn btn-info" >
+                  <app-modal
+
+                  ></app-modal>
+
+                </button>
+              </div>
+              <div class="row">
+                <button class="btn btn-danger" (click)=removeItem(item)>remover</button>
+
+              </div>
+          </div>
+      </ng-container>
+
+  </div>
+</div>
+
+

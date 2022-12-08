@@ -1,0 +1,131 @@
+mat-toolbar{
+  //background-color:#7C4DFF;
+  background-color: #7d69ac;
+  //background-color:#6200EA;
+  font-family: segoe script;
+  color: white;
+}
+
+
+
+form{
+  position: relative;
+  left: 950px;
+
+}
+
+.btn{
+  background-color: #93d1f4;
+  color:white;
+}
+
+.spanlogo{
+  position: relative;
+  left:530px;
+}
+
+
+.navbar{
+  background-color: #62508f;
+  width: 1350px;
+
+
+}
+
+.nav-tabs{
+  background-color: #6852a1;
+  position: relative;
+  left: 100px;
+  color:white;
+  border: 1px solid white;
+  border-radius: 8px;
+
+
+}
+.nav-tabs:hover{
+  background-color: #7c6ba8;
+
+
+}
+
+a{
+  color: white;
+  font-family: segoe script;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
+@media(width:320px) and (width:320px){
+
+ /* .navbar{
+    background-color: #62508f;
+    width: 320px;
+    position: relative;
+    right: 37px;
+    z-index: 1;
+    font-size: 8px;
+  
+  
+  }
+
+  .nav-tabs{
+    background-color: #6852a1;
+    position: relative;
+    left: 100px;
+    height: 8px;
+    color:white;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 320px;
+  
+  
+  }*/
+
+  
+  form{
+    position: relative;
+    left: 50px;
+    width: 250px;
+
+
+  }
+
+  .btn{
+    width: 60px;
+    font-size: 10px;
+    padding-right: 19px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .navbar{
+    background-color: #7d69ac;
+
+  }
+  .nav-tabs{
+
+    background-color: #6852a1;
+    position: relative;
+    left: 80px;
+    font-size: 8px;
+    width: 235px;
+    height: 300px;
+    z-index:-1;
+    background-color: #7d69ac;
+
+
+  }
+  li{
+    width: 300px;
+  }
+
+
+
+
+
+
+}

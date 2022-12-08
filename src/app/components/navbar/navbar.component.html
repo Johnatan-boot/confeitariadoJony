@@ -1,0 +1,68 @@
+<!--<app-header></app-header>-->
+
+<nav class="navbar navbar-expand-lg">
+
+  <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+    <li [ngbNavItem]="1">
+      <a  [routerLink]="['/home']" ngbNavLink>Home</a>
+      <ng-template ngbNavContent>
+
+      </ng-template>
+    </li>
+    <li [ngbNavItem]="2">
+      <a [routerLink]="['/perfil-social']" ngbNavLink>Perfil</a>
+      <ng-template ngbNavContent>
+
+      </ng-template>
+    </li>
+
+    <li [ngbNavItem]="3">
+      <a  [routerLink]="['/bolos-tradcionais']" ngbNavLink>Bolos Tradcionais</a>
+      <ng-template ngbNavContent>
+
+      </ng-template>
+    </li>
+    <li [ngbNavItem]="3">
+      <a [routerLink]="['/bolos-cobertura']" ngbNavLink>Bolos Com Cobertura</a>
+      <ng-template ngbNavContent>
+
+      </ng-template>
+    </li>
+    <li [ngbNavItem]="3">
+      <a [routerLink]="['/bolos-festas']" ngbNavLink>Bolos Para Festas</a>
+      <ng-template ngbNavContent>
+
+      </ng-template>
+    </li>
+    <li [ngbNavItem]="3">
+      <a [routerLink]="['/cadastro-pf']" ngbNavLink>Cadastro</a>
+      <ng-template ngbNavContent>
+
+      </ng-template>
+    </li>
+    <li [ngbNavItem]="3">
+      <a [routerLink]="['/orcamentos']"  ngbNavLink>Orcamento</a>
+      <ng-template ngbNavContent>
+
+      </ng-template>
+    </li>
+    <li [ngbNavItem]="4">
+      <a [routerLink]="['/list-pedidos']"  ngbNavLink>Lista Pedidos</a>
+      <ng-template ngbNavContent>
+
+      </ng-template>
+    </li>
+  </ul>
+</nav>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <a class="dropdown-item" href="#">Action</a>
+  <a class="dropdown-item" href="#">Another action</a>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">Something else here</a>
+</div>
+<div [ngbNavOutlet]="nav" class="mt-2"></div>
+
+
+
+
+

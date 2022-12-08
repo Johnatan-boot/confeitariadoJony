@@ -1,0 +1,91 @@
+<img  class="bannerOrc"  [src]="imageUrlLogin"
+width="1200" height="300" alt="banner da confeitaria">
+<mat-card>
+  <form [formGroup]="form">
+    <h3 class="title">Solicitação de Orçamento</h3>
+  <div class="inputs">
+    <span class="subtitle_em">E-mail</span>
+    <div class="input-group mb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2 col-md-2 col-xl-6">
+            <input formControlName="email"
+            type="text" class=" input_email form-control"
+            placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon1">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="subtitle_no">Nome</span>
+    <div class="input-group mb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm col-md-2 col-xl-6">
+            <input formControlName="nome"
+            type="text" class=" input_nome form-control"
+            placeholder="Nome" aria-label="Nome" aria-describedby="basic-addon1">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <span  class="subtitle_tel">Telefone</span>
+
+    <div class="input-group mb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm col-md-2 col-xl-12">
+      <input formControlName="telefone"
+      type="text" class=" input_tel form-control"
+      placeholder="Telefone" aria-label="E-mail" aria-describedby="basic-addon1">
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="selects">
+    <div class="select_tamanho">
+      <mat-form-field appearance="fill">
+        <mat-label>Slecione um Tamanho</mat-label>
+        <mat-select [(value)]="selected">
+          <mat-option>None</mat-option>
+          <mat-option value="bolo_peq">Bolo Pequeno</mat-option>
+          <mat-option value="bolo_med">Bolo Medio</mat-option>
+          <mat-option value="bolo_gd">Bolo Grande</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div class="select_preco">
+      <mat-form-field appearance="fill">
+        <mat-label>Slecione um Sabor</mat-label>
+        <mat-select [(value)]="selecteds">
+          <mat-option>None</mat-option>
+          <mat-option value="chocolate">chocolate</mat-option>
+          <mat-option value="morango">morango</mat-option>
+          <mat-option value="maracuja">maracuja</mat-option>
+        </mat-select>
+      </mat-form-field>
+  </div>
+   <div class="rodape_form">
+    <div class=" subtitle textarea mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Observações</label>
+     <div class="container">
+      <div class="row">
+        <div class="col-sm col-md-3 col-xl-12">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+        </div>
+      </div>
+     </div>
+    </div>
+    <button class="btn_form btn" (click)=" onSubmit()">Enviar</button>
+   </div>
+
+  </div>
+
+
+  </form>
+</mat-card>

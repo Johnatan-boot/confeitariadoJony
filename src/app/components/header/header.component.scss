@@ -1,0 +1,145 @@
+.navbar,.btncart{
+  background-color: #7d69ac;
+  border: #7d69ac;
+  color: white;
+  height: 60px;
+}
+
+.btncart{
+  background-color: #7059a7;
+  height: 50px;
+  width: 60px;
+  border-radius: 8px;
+  border:  2px solid gray;
+  position: relative;
+  right: 10px;
+
+}
+
+.form-control {
+  border-radius: 3px;
+  width: 600px;
+  margin-left: 20px;
+}
+form{
+  position: relative;
+  left: 80px;
+  height: 40px;
+
+}
+
+
+
+
+.btn{
+  background-color: #93d1f4;
+  color:white;
+  font-family: segoe script;
+}
+
+.search-icon {
+  position: absolute;
+  z-index: 10;
+  right: 52%;
+  top: 20px;
+  color: rgb(131, 71, 155);
+}
+
+
+ .btn_logoff{
+  position: relative;
+  left: 500px;
+  height: 40px;
+  font-size: 12px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+}
+
+@media(min-width:320px) and (max-width:768px){
+  /*1366 x 768 pixels*/
+
+  .navbar{
+    background-color: #7d69ac;
+    border: #7d69ac;
+    color: white;
+    position: relative;
+    right: 4px;
+    height: 45px;
+    width: 320px;
+  }
+
+  /*form{
+    position: relative;
+    left: 404px;
+
+  }*/
+
+  .d-flex{
+    height: 20px;
+    width: 50px;
+    font-size: 9px;
+    position: relative;
+    right: 20px;
+    bottom: 0px;
+
+  }
+
+  .form-control{
+    width: 290px;
+    position: relative;
+    top: 1px;
+    right: 10px;
+    font-size: 9px;
+  }
+
+  .btn{
+    width: 35px;
+    height: 25px;
+    font-size: 9px;
+    text-align: center;
+    position: relative;
+    right: 13px;
+    border: 2px solid #79c9f8;
+
+  }
+  .btncart{
+    background-color: #7059a7;
+    height: 30px;
+    width: 50px;
+    border-radius: 8px;
+    border:  2px solid gray;
+    position: relative;
+    right: 0px;
+    top: 5px;
+
+  }
+  .button_p_search{
+    position: relative;
+    right: 12px;
+    height: 40px;
+  }
+
+  .btn_logoff{
+    height: 25px;
+    width: 30px;
+    font-size: 10px;
+    position: relative;
+    left: 210px;
+    top: 0px;
+    z-index: 1;
+  }
+
+  .button_p_logoff{
+    font-size: 8px;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+  }
+
+  .fa-sign-out{
+   position: relative;
+   top: 4px;
+  }
+
+
+}

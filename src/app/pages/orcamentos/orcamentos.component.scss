@@ -1,0 +1,131 @@
+.bannerOrc{
+  height: 200px;
+  position: relative;
+  bottom: 20px;
+}
+
+mat-card{
+  position: relative;
+  left: 180px;
+  bottom: 60px;
+  background-color: #93d1f4;
+  border-radius: 30px;
+  height: 420px;
+  width: 800px;
+}
+
+.title{
+  position: relative;
+  bottom: 13px;
+  text-align: center;
+  color: #472c2c;
+  font-weight: bold;
+  font-family: segoe script;
+}
+.subtitle{
+  color: white;
+  font-family: segoe script;
+
+}
+
+label{
+  position: relative;
+  left: 11px;
+}
+
+.subtitle_em{
+  position: relative;
+  left: 405px;
+  color: white;
+  font-family: segoe script;
+}
+.subtitle_no{
+  position: relative;
+ bottom: 80px;
+ left: 9px;
+  color: white;
+  font-family: segoe script;
+}
+.subtitle_tel{
+  position: relative;
+  bottom: 75px;
+  left: 7px;
+  color: white;
+  font-family: segoe script;
+}
+
+.inputs{
+  position: relative;
+  bottom: 30px;
+}
+
+.input_email{
+  position: relative;
+  left: 390px;
+}
+.input_nome{
+  position: relative;
+  bottom: 73px;
+}
+
+.input_tel{
+  position: relative;
+  bottom: 70px;
+  left: 2px;
+}
+
+.selects{
+  position: relative;
+  bottom: 95px;
+  left: 15px;
+}
+
+.select_preco{
+  position: relative;
+  left: 350px;
+  bottom: 72px;
+}
+
+.rodape_form{
+  position: relative;
+  bottom: 85px;
+  left: 350px;
+}
+
+.textarea{
+  position: relative;
+  right: 370px;
+}
+
+.btn_form{
+  background-color: #472c2c;
+  color: white;
+  font-family: segoe script;
+
+}
+
+@media(min-width:320px) and (max-width:768px){
+  .bannerOrc{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    bottom: 350px;
+    position: relative;
+    right: 90px;
+  }
+
+  mat-card{
+    position: relative;
+    left: -68px;
+    bottom: 400px;
+    background-color: #93d1f4;
+    border-radius: 30px;
+    height: 420px;
+    width: 320px;
+  }
+
+form{
+  width: 320px;
+}
+
+}

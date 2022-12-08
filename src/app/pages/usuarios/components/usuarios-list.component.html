@@ -1,0 +1,85 @@
+<img class="bannerUser" src="./assets/home/944.png"
+alt="banner Usuarios" height="300px"
+width="1270px">
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm  col-md-8 col-xl-12">
+      <mat-card >
+        <mat-toolbar><h3>Usuarios</h3></mat-toolbar>
+        <div *ngIf="usuarios$ | async as usuarios; else loading">
+<table mat-table [dataSource]="usuarios" class="col-sm-1  col-md-8 col-xl-12">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+
+
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="email">
+      <th class="themail" mat-header-cell *matHeaderCellDef> Email </th>
+      <td class="tdemail" mat-cell *matCellDef="let usuario"> {{usuario.email}} </td>
+    </ng-container>
+    <!-- Name Column -->
+    <ng-container matColumnDef="password">
+      <th class="thsenha" mat-header-cell *matHeaderCellDef> Senha </th>
+      <td mat-cell *matCellDef="let usuario"> {{usuario.password}} </td>
+    </ng-container>
+     <!-- Actions Column -->
+     <ng-container matColumnDef="actions">
+      <mat-header-cell *matHeaderCellDef>
+        <button class="btnadicionar" mat-mini-fab  class="btnadicionar" aria-label="Adicionar um cliente">
+          <mat-icon (click)="onAdd()" >add</mat-icon>
+        </button>
+      </mat-header-cell>
+
+      <mat-cell *matCellDef="let cliente">
+        <button mat-icon-button class="btneditar" aria-label="Editar Cliente">
+          <mat-icon>edit</mat-icon>
+        </button>
+
+        <button  mat-icon-button class="btndeletar" aria-label="Remover cliente">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </mat-cell>
+
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
+<ng-template #loading>
+  <div class="loading-spinner">
+    <mat-spinner></mat-spinner>
+  </div>
+</ng-template>
+
+</mat-card>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

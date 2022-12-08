@@ -8,5 +8,16 @@ if (environment.production) {
   enableProdMode();
 }
 
+//se usar este a pagina nao carrega
+//const bootstrap =()=> platformBrowserDynamic().bootstrapModule(AppModule);
+
+
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+
+  /*if (environment.hmr) {
+  hmrBootstrap(module, bootstrap);
+}else{
+  bootstrap().catch((err)=>console.error());
+}*/

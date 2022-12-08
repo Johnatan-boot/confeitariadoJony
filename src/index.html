@@ -2,12 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Confeitaria</title>
+  <title>Confeitaria do Jony</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body class="mat-typography">
   <app-root></app-root>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Jony-o-confeiteiro"
+  agent-id="8c484a3a-f10e-4350-a744-01794afd07b9"
+  language-code="pt"
+></df-messenger>
 </body>
 </html>

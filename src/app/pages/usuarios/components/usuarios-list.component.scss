@@ -1,0 +1,196 @@
+.bannerUser{
+position: relative;
+right: 50px;
+bottom: 55px;
+}
+
+mat-card{
+  background-color: #4E342E;
+  width: 100%;
+  position: relative;
+  bottom: 70px;
+  //z-index: -1;
+}
+
+mat-toolbar{
+  background-color:#6200EA;
+  font-family: segoe script;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h3{
+  font-family: segoe script;
+  color: white;
+  position: relative;
+  left: 480px;
+}
+
+.container table{
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+  background-color: #8D6E63;
+  font-family: segoe script;
+
+}
+
+table{
+  border-radius: 20px;
+
+}
+
+.thsenha{
+  position: relative;
+  left: 80px;
+}
+.thid{
+  position: relative;
+  left: 33px;
+}
+.themail{
+  position: relative;
+  left: 183px;
+}
+
+.tdemail{
+  position: relative;
+  left: 10px;
+}
+
+table th, td{
+  border-radius: 20px;
+
+  color: white;
+}
+
+.btnadicionar{
+  background-color: #76FF03;
+}
+
+.btneditar{
+  background-color: #00E5FF;
+  color: white;
+}
+
+.btndeletar{
+  background-color: #D50000;
+  color: white;
+
+}
+
+mat-spinner{
+  position: relative;
+  left: 450px;
+}
+
+@media(min-width:320px) and (max-width:720px){
+  .bannerUser{
+    width:250px;
+    height:100px;
+    position: relative;
+    right: 60px;
+    bottom: 365px;
+    }
+
+    h3{
+      font-family: segoe script;
+      color: white;
+      position: relative;
+      right: 160px;
+    }
+
+    mat-card{
+      background-color: #4E342E;
+      width: 250px;
+      height:350px;
+      position: relative;
+      right: 70px;
+      bottom: 350px;
+      //z-index: -1;
+    }
+
+    mat-toolbar{
+      height:15px;
+      background-color:#6200EA;
+      font-family: segoe script;
+      color: white;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    h3{
+      font-family: segoe script;
+      color: white;
+      position: relative;
+      left: 480px;
+    }
+
+    .container table{
+      position:relative;
+      right:30px;
+      margin-top: 5px;
+      width: 100px;
+      height:290px;
+      //text-align: center;
+      background-color: #8D6E63;
+      font-family: segoe script;
+
+    }
+
+    table{
+      border-radius: 20px;
+      width: 100px;
+
+
+    }
+
+    .thsenha{
+      position: relative;
+      left: 80px;
+    }
+    .thid{
+      position: relative;
+      left: 33px;
+    }
+    .themail{
+      width:20px;
+      position: relative;
+      left: 183px;
+    }
+
+    .tdemail{
+      position: relative;
+      left: 10px;
+      width:20px;
+
+    }
+
+    table th, td{
+      border-radius: 20px;
+      width:80px;
+
+      color: white;
+    }
+
+    .btnadicionar{
+      background-color: #76FF03;
+    }
+
+    .btneditar{
+      background-color: #00E5FF;
+      color: white;
+    }
+
+    .btndeletar{
+      background-color: #D50000;
+      color: white;
+
+    }
+
+}
+
+
+
+
